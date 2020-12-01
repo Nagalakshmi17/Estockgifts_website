@@ -92,7 +92,7 @@
 				<version>2.16</version>
 				<configuration>
 					<suiteXmlFiles>
-						<suiteXmlFilexmlFile>maven.xml</suiteXmlFilexmlFile>
+						<suiteXmlFilexmlFile>testng.xml</suiteXmlFilexmlFile>
 					</suiteXmlFiles>
 					<properties>
 						<property>
@@ -100,9 +100,6 @@
 							<value>false</value>
 						</property>
 					</properties>
-					<suiteXmlFiles>
-						<suiteXmlFilexmlFile>${Suite_Name}</suiteXmlFilexmlFile>
-					</suiteXmlFiles>
 					<properties>
 						<property>
 							<name>usedefaultlisteners</name> <!-- disabling default listeners is optional -->
