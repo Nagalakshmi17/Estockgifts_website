@@ -25,6 +25,9 @@ package Base;
   String Front_Image = "/html/body/div[1]/app-root/div[1]/div/app-gift-card-editor/app-create-cards/div/div[1]/div/div/div/div[1]/form[2]/div[7]/div[1]/label";
   String Back_Image = "/html/body/div[1]/app-root/div[1]/div/app-gift-card-editor/app-create-cards/div/div[1]/div/div/div/div[1]/form[2]/div[8]/div[1]/label";
   String Redeem_Image = "/html/body/div[1]/app-root/div[1]/div/app-gift-card-editor/app-create-cards/div/div[1]/div/div/div/div[1]/form[2]/div[9]/div[1]/label";
+  String front_OK = "/html/body/div[1]/app-root/div[1]/div/app-gift-card-editor/app-create-cards/div/div[4]/div[3]/button";
+  String back_OK = "/html/body/div[1]/app-root/div[1]/div/app-gift-card-editor/app-create-cards/div/div[6]/div[3]/button";
+  String redeem_Ok = "/html/body/div[1]/app-root/div[1]/div/app-gift-card-editor/app-create-cards/div/div[7]/div[3]/button";
   String Ok_Button = "/html/body/div[1]/app-root/div[1]/div/app-gift-card-editor/app-create-cards/div/div[4]/div[3]/button";
   String Message = "/html/body/div[1]/app-root/div[1]/div/app-gift-card-editor/app-create-cards/div/div[1]/div/div/div/div[1]/div[1]/div/textarea";
   

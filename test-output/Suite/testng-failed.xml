@@ -1,20 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test thread-count="5" name="Smoke-Test(failed)">
-    <groups>
-      <run>
-        <include name="Smoke"/>
-        <exclude name="Regression"/>
-        <exclude name="FullSuite"/>
-      </run>
-    </groups>
+  <listeners>
+    <listener class-name="com.epam.reportportal.testng.ReportPortalTestNGListener"/>
+  </listeners>
+  <test name="Test(failed)">
     <classes>
-      <class name="Smoke_Test.home_page_with_all_links">
+      <class name="Smoke_Test.Single_Card_Creation">
         <methods>
-          <include name="CLickLinks"/>
+          <include name="Single_Card"/>
         </methods>
-      </class> <!-- Smoke_Test.home_page_with_all_links -->
+      </class> <!-- Smoke_Test.Single_Card_Creation -->
     </classes>
-  </test> <!-- Smoke-Test(failed) -->
+  </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
