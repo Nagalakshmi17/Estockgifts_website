@@ -100,14 +100,7 @@
 							<value>false</value>
 						</property>
 					</properties>
-					<properties>
-						<property>
-							<name>usedefaultlisteners</name> <!-- disabling default listeners is optional -->
-							<value>false</value>
-						</property>
-					</properties>
 				</configuration>
-
 			</plugin>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
@@ -119,7 +112,6 @@
 				</configuration>
 			</plugin>
 		</plugins>
-
 
 	</build>
 
