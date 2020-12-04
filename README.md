@@ -2,4 +2,4 @@
 
 
 
-Use  "mvn test -DSuite_Name=testng.xml" in Goals
+Use  "test -DSuite_Name=testng.xml" in Goals
