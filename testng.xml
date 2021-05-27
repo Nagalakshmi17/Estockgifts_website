@@ -6,7 +6,7 @@
 		</listeners> -->
 	<test name="Test">
 		<classes>
-			<class name="Smoke_Test.Login" />
+			<class name="Smoke_Test.Single_Card_Creation" />
 
 		</classes>
 	</test> <!-- Test -->
